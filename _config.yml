@@ -24,9 +24,9 @@ author:
   # Biographic information
   avatar           : "yo-pro-visa.jpg"
   name             : "Luis M. Espinoza Bardales"
-  pronouns         : "he/him" # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "College Station, TX"
+  pronouns         : # example: "she/her"  
+  bio              : "Assistant Professor at Texas A&M University"
+  location         : "College Station, TX, U.S.A."
   employer         : "Red Brick University"
   uri              : # URL
   email            : "lespinoza@tamu.edu" 
