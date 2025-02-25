@@ -22,7 +22,7 @@ repository               : "Luis-Espinoza-Bardales/Luis-Espinoza-Bardales.github
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "yo-pro-visa.jpg"
+  avatar           : "yo_pro_visa.jpg"
   name             : "Luis M. Espinoza Bardales"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor at Texas A&M University"
