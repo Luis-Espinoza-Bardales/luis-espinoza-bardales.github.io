@@ -79,14 +79,14 @@ author:
 publication_category:
   books:
     title: 'Books'
-  chapters:
-    title: 'Book chapters'
   papers:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
   manuscripts:
     title: 'Working Papers'
+  chapters:
+    title: 'Book chapters'
   intheworks:
     title: 'Work in progress'
   other:
