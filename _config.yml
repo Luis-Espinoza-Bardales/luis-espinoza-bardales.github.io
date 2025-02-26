@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Trade Economics, Development Economics"
   location         : "College Station, TX, U.S.A."
-  employer         : ["Texas A&M University"](https://bush.tamu.edu/)
+  employer         : <a href="https://bush.tamu.edu/">Texas A&M University</a>
   uri              : # URL
   email            : "lespinoza@tamu.edu" 
 
