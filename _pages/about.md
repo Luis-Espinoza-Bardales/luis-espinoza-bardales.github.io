@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor at the Bush School of Government and Public Service at Texas A&M.
+I am an Assistant Professor at the Bush School of Government and Public Service at Texas A&M University.
 
 My research interest lies at the intersection of international trade and economic development. My current research focuses on the role that foreign affiliates of multinational firms can play in the economic development of their host economies.
 
