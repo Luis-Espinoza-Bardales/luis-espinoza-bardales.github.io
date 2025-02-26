@@ -9,4 +9,3 @@ venue: 'CID Working Paper'
 paperurl: 'http://luis-espinoza-bardales.github.io/files/w.pdf'
 citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
-
