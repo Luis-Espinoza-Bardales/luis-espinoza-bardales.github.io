@@ -87,6 +87,8 @@ publication_category:
     title: 'Working Papers'
   intheworks:
     title: 'Work in progress'
+  other:
+    title: 'Non-economics articles'    
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
