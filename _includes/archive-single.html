@@ -40,10 +40,10 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.category == 'manuscripts' %}
-          <p>{{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          {% if not post.category == 'intheworks' %}
+          {% if post.category == 'manuscripts' %}
+            <p>{{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elseif not post.category == 'intheworks' %}
             <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
         {% elsif post.date %}
