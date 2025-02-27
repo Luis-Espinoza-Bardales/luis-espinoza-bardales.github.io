@@ -39,17 +39,13 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          {% if post.category == 'books' %}
-            <p>{{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% elseif post.category == 'chapters' %}
-            <p>Chapter in book: <i>{{ page.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% elseif post.category == 'manuscript' %}
-            <p>{{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% elseif post.category == 'intheworks' %}
-            <p></p>
-          {% endif %}
+          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900" | date: "%Y" }} </p>
+        {% elsif post.collection == 'publications' and post.category == 'chapters' %}
+          <p>Chapter in book: <i>{{ page.venue }}</i>, {{ post.date | default: "1900" | date: "%Y" }} </p>
+        {% elsif post.collection == 'publications' and post.category == 'intheworks' %}
+          <p></p>
+        {% elsif post.collection == 'publications'%}
+          <p>{{ post.date | default: "1900" | date: "%Y" }} </p>
         {% elseif page.venue and page.date %}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
