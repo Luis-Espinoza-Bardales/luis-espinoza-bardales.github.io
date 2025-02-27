@@ -41,12 +41,14 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          {% if post.category == 'chapters' %}
-            <p>Chapter in book: <i>{{ page.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% elseif post.category == 'manuscripts' %}
+          {% if post.category == 'books' %}
             <p>{{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% elseif post.category == 'intheworks' %}
-            <p><p>
+          {% elseif post.category == 'chapters' %}
+            <p>Chapter in book: <i>{{ page.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elseif post.category == 'manuscripts' &&  post.category == 'intheworks' %}
+            <p></p>
+          {% else %}
+            <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
         {% elseif page.venue and page.datE %}
             <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
