@@ -45,7 +45,7 @@
             <p>{{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% elseif post.category == 'chapters' %}
             <p>Chapter in book: <i>{{ page.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% elseif post.category == 'manuscripts' &&  post.category == 'intheworks' %}
+          {% elseif post.category == 'intheworks' %}
             <p></p>
           {% else %}
             <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
