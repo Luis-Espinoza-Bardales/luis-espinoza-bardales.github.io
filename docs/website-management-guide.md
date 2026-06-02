@@ -207,7 +207,7 @@ Most routine updates should happen in:
 
 ## How to update the CV
 
-The site links directly to `files/Espinoza_CV.pdf`. That PDF is generated from structured data instead of edited by hand in Word.
+The site links directly to `files/Espinoza_CV_current.pdf`. That PDF is generated from structured data instead of edited by hand in Word.
 
 Edit:
 

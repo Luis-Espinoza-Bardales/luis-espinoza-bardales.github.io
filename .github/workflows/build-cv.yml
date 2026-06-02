@@ -38,12 +38,12 @@ jobs:
 
       - name: Commit updated CV
         run: |
-          if git diff --quiet -- files/Espinoza_CV.pdf; then
+          if git diff --quiet -- files/Espinoza_CV.pdf files/Espinoza_CV_current.pdf; then
             echo "CV PDF is already up to date."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add files/Espinoza_CV.pdf
+            git add files/Espinoza_CV.pdf files/Espinoza_CV_current.pdf
             git commit -m "Build CV PDF"
             git push
           fi

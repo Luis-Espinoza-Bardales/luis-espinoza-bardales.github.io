@@ -3,6 +3,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import shutil
 from pathlib import Path
 
 from reportlab.lib import colors
@@ -29,6 +30,7 @@ PAPERS_DATA = ROOT / "data" / "papers.json"
 TEACHING_DATA = ROOT / "data" / "teaching.json"
 SITE_DATA = ROOT / "data" / "site.json"
 OUTPUT = ROOT / "files" / "Espinoza_CV.pdf"
+CURRENT_OUTPUT = ROOT / "files" / "Espinoza_CV_current.pdf"
 
 MAROON = colors.HexColor("#500000")
 INK = colors.HexColor("#222222")
@@ -636,6 +638,7 @@ def build() -> None:
         author="Luis M. Espinoza Bardales",
     )
     doc.build(story, onFirstPage=on_page, onLaterPages=on_page)
+    shutil.copyfile(OUTPUT, CURRENT_OUTPUT)
     print(f"Built {OUTPUT.relative_to(ROOT)}")
 
 
