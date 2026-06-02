@@ -1,0 +1,144 @@
+[
+  {
+    "title": "Texas A&M University",
+    "year": "2024-present",
+    "role": "Assistant Professor",
+    "level": "Graduate courses",
+    "institution": "Department of International Affairs, Bush School of Government and Public Service",
+    "courses": [
+      {
+        "name": "INTA 625: International Trade Policy",
+        "description": "Examines the economic logic and institutional frameworks of international trade policy. Topics include the gains and losses from trade and protectionism, the role of the WTO and regional trade agreements in regulating global commerce and the use of policy instruments such as tariffs, quotas and subsidies.",
+        "terms": "3 terms",
+        "levelCode": "M",
+        "syllabus": {
+          "label": "Fall 2026 syllabus",
+          "url": "https://tamu.simplesyllabus.com/en-US/doc/2163b3hye/Fall-2026-College-Station-INTA-625-600-%2858307%29-INTERNATIONAL-TRADE-POL?mode=view"
+        }
+      },
+      {
+        "name": "INTA 608: Global Economy",
+        "description": "Examines three fundamental pillars of the global economy: international trade, international finance and foreign direct investment (FDI); appreciation for the complexities of the international environment from both theoretical and policy perspectives.",
+        "terms": "4 terms",
+        "levelCode": "M",
+        "syllabus": {
+          "label": "Fall 2026 syllabus",
+          "url": "https://tamu.simplesyllabus.com/en-US/doc/dvvhtcckr/Fall-2026-College-Station-INTA-608-602-%2842591%29-GLOBAL-ECONOMY?mode=view"
+        }
+      },
+      {
+        "name": "INTA 694: Economic Restructuring in Latin America",
+        "description": "Studies Latin America's economic development; understand economic antecedents to recent reforms as well as resulting impact of these reforms on workers, growth, and living standards; critically evaluate arguments related to the political economy of international trade, finance and development.",
+        "terms": "1 term",
+        "levelCode": "M",
+        "syllabus": {
+          "label": "Spring 2026 syllabus",
+          "url": "https://tamu.simplesyllabus.com/en-US/doc/z8jcgnb3h/Spring-2026-College-Station-INTA-694-600-%2857949%29-ECON-RESTRUCT-LATIN-AMERICA?mode=view"
+        }
+      }
+    ]
+  },
+  {
+    "title": "University of Michigan",
+    "year": "2017-2024",
+    "role": "Graduate Student Instructor (GSI)",
+    "level": "Mostly undergraduate courses",
+    "institution": "Department of Economics",
+    "courses": [
+      {
+        "name": "ECON 101: Principles of Economics I - Microeconomics",
+        "terms": "7 terms",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECON 451: Intermediate Introduction to Statistics and Econometrics I",
+        "terms": "2 terms",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECON 251: Introduction to Statistics and Econometrics II",
+        "terms": "1 term",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECON 442: International Finance",
+        "terms": "1 term",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECON 500: Quantitative Methods",
+        "terms": "1 term",
+        "levelCode": "M"
+      }
+    ]
+  },
+  {
+    "title": "Harvard University",
+    "year": "2014",
+    "role": "Course Assistant",
+    "level": "Graduate courses",
+    "institution": "John F. Kennedy School of Government",
+    "description": "Course assistant for the MPA/ID core development economics sequence.",
+    "courses": [
+      {
+        "name": "PED 101Y: Economic Development: Theory, Evidence and Policy Design",
+        "terms": "1 term",
+        "levelCode": "M"
+      }
+    ]
+  },
+  {
+    "title": "Pontificia Universidad Católica del Perú (PUCP)",
+    "year": "2006-2011",
+    "role": "Jefe de prácticas (Teaching assistant)",
+    "level": "Undergraduate courses",
+    "institution": "Departamento de Economía (Department of Economics)",
+    "courses": [
+      {
+        "name": "ECO 220: Historia del pensamiento económico (History of Economic Thought)",
+        "terms": "5 terms",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECO 215: Historia económica 1 (Economic History 1)",
+        "terms": "4 terms",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECO 114: Introducción a la macroeconomía (Introduction to Macroeconomics)",
+        "terms": "3 terms",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECO 255: Microeconomía 1 (Microeconomics 1)",
+        "terms": "3 terms",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECO 290: Macroeconomía 1 (Macroeconomics 1)",
+        "terms": "2 terms",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECO 362: Análisis macroeconómico (Macroeconomic Analysis)",
+        "terms": "1 term",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECO 113: Introducción a la microeconomía (Introduction to Microeconomics)",
+        "terms": "1 term",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECO 330: Econometría 2 (Econometrics 2)",
+        "terms": "1 term",
+        "levelCode": "U"
+      },
+      {
+        "name": "ECO 261: Econometría 1 (Econometrics 1)",
+        "terms": "1 term",
+        "levelCode": "U"
+      }
+    ]
+  }
+]

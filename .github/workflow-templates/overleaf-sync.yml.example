@@ -1,0 +1,44 @@
+name: Sync Overleaf Paper
+
+on:
+  workflow_dispatch:
+    inputs:
+      paper_slug:
+        description: "Slug from data/papers.json"
+        required: true
+      pdf_output_name:
+        description: "PDF filename to copy into files/"
+        required: true
+      main_tex:
+        description: "Main TeX file in the Overleaf project"
+        required: true
+        default: "main.tex"
+
+jobs:
+  sync-paper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+
+      - name: Checkout Overleaf project
+        run: |
+          git clone "${{ secrets.OVERLEAF_GIT_URL }}" overleaf-paper
+
+      - name: Compile PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: ${{ github.event.inputs.main_tex }}
+          working_directory: overleaf-paper
+
+      - name: Copy PDF and mark paper as updated
+        run: |
+          MAIN_TEX="${{ github.event.inputs.main_tex }}"
+          PDF_BASENAME="${MAIN_TEX%.tex}"
+          cp "overleaf-paper/${PDF_BASENAME}.pdf" "files/${{ github.event.inputs.pdf_output_name }}"
+          python scripts/mark_paper_updated.py "${{ github.event.inputs.paper_slug }}"
+
+      - name: Commit website update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update ${{ github.event.inputs.paper_slug }} PDF"

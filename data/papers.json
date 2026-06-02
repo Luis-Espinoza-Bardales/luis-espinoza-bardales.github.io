@@ -1,0 +1,347 @@
+[
+  {
+    "slug": "contract-enforcement-international-trade-new-look",
+    "title": "Contract enforcement and international trade: a new look",
+    "authors": "Luis M. Espinoza Bardales",
+    "year": "2026",
+    "category": "Working Papers",
+    "status": "Working Paper",
+    "updated": "2026-06-01",
+    "version": "June 2026",
+    "featured": true,
+    "image": "assets/img/research/contract-enforcement-international-trade.png",
+    "thumbnail": {
+      "sourcePdf": "files/Contract_enforcement_and_international_trade-2026-05-31.pdf",
+      "sourcePage": 8,
+      "sourceImage": 1
+    },
+    "short": "A new look at how contract-enforcement institutions shape trade through global input sourcing.",
+    "abstract": "This paper reexamines the role of contract-enforcement institutions in international trade. The standard view is that countries with stronger domestic institutions specialize in contract-intensive sectors because weak enforcement discourages relationship-specific investment. I argue that this view is incomplete in an open economy: firms may source specific inputs from abroad, and contracting frictions may depend on the institutions of both the input supplier and the input buyer. I develop a multi-country model in which incomplete contracts generate an industry-specific bilateral cost wedge for relationship-specific inputs. The model distinguishes two channels. First, contracting frictions raise the effective trade cost of specific inputs. Second, they raise production costs in sectors that rely heavily on those inputs. The model also implies that exporter and importer institutions are substitutes, and that access to foreign suppliers may partly mitigate weak domestic institutions. Using bilateral product-level trade data and measures of rule of law, I find evidence for both cost channels. Trade in specific inputs is increasing in the quality of contract enforcement in both origin and destination countries, and the marginal effect of one country's institutions is weaker when the other country's institutions are stronger. Domestic institutions also matter more in sectors that rely heavily on domestic specific inputs and in industries where know-how transfers are important. However, the direct evidence that access to foreign institutions offsets weak domestic institutions is limited. The results suggest that domestic institutions remain central to comparative advantage, but their effects operate through global input sourcing as well as domestic production.",
+    "citation": "Espinoza, L. (2026). Working Paper.",
+    "links": [
+      {
+        "label": "Most recent version",
+        "url": "files/Contract_enforcement_and_international_trade-2026-05-31.pdf",
+        "primary": true
+      }
+    ]
+  },
+  {
+    "slug": "proximity-contract-enforcement-specialized-trade",
+    "title": "Proximity as a Substitute of Contract Enforcement in Specialized Trade",
+    "authors": "Luis M. Espinoza Bardales and José Morales-Arilla",
+    "year": "2026",
+    "category": "Working Papers",
+    "status": "Working Paper",
+    "updated": "2026-03-17",
+    "version": "March 2026",
+    "featured": true,
+    "image": "assets/img/research/proximity-contract-enforcement.png",
+    "thumbnail": {
+      "sourcePdf": "files/Institutions__trade_and_travel_2026-REStat.pdf",
+      "sourcePage": 22,
+      "sourceImage": 0
+    },
+    "short": "Geographic proximity can substitute for contract-enforcement institutions in specialized trade.",
+    "abstract": "We examine how geographic proximity can substitute for contract-enforcement institutions in enabling international exports of specialized goods. When exporters must meet buyers' specific product requirements, successful trade depends on either strong contract enforcement or close buyer-seller relationships that enable monitoring and trust. We argue that geographic proximity facilitates such relationships by reducing the costs of frequent business travel. Our theoretical framework predicts that institutional quality should primarily affect specialized trade over longer distances, as proximity-based relationship-building becomes prohibitively expensive. Using bilateral, product-specific export data in a gravity model, we find strong empirical support for this prediction. Consistent with our theory, we also show that business travel expenses and passenger flights decline more sharply with distance when destination countries have weak contract enforcement institutions.",
+    "citation": "Espinoza, L. and J. Morales-Arilla (2026). Working Paper.",
+    "links": [
+      {
+        "label": "Most recent version",
+        "url": "files/Institutions__trade_and_travel_2026-REStat.pdf",
+        "primary": true
+      }
+    ]
+  },
+  {
+    "slug": "contracting-frictions-geography-multinational-firms-mexico",
+    "title": "Contracting frictions, geography, and multinational firms: evidence from Mexico",
+    "authors": "Luis M. Espinoza Bardales",
+    "year": "2023",
+    "category": "Working Papers",
+    "status": "Working Paper",
+    "updated": "2023-11-01",
+    "version": "November 2023",
+    "featured": true,
+    "image": "assets/img/research/multinational-firms-mexico.png",
+    "thumbnail": {
+      "sourcePdf": "files/Espinoza_JMP_November_vf.pdf",
+      "sourcePage": 14,
+      "sourceImage": 0
+    },
+    "short": "A study of contracting frictions, geography, sourcing, and multinationals in Mexico.",
+    "abstract": "I explore how contracting frictions and geography influence the trade costs faced by multinationals in their affiliates located in Mexico relative to domestic firms. I document two key facts. First, distance to firm's home countries influences firms' sourcing patterns. Second, sectors with a larger presence of foreign affiliates are more intensive in relationship-specific inputs. I develop a small open economy model with multiple sectors, imperfect contracting, input relationship-specificity, global sourcing and multinational production. I compute counterfactual equilibria to gauge the relative importance of contracting frictions, trade costs, and productivity in the price advantage of multinationals over domestic firms.",
+    "citation": "Espinoza, L. (2023). Working Paper.",
+    "links": [
+      {
+        "label": "Most recent version",
+        "url": "files/Espinoza_JMP_November_vf.pdf",
+        "primary": true
+      }
+    ]
+  },
+  {
+    "slug": "panama-growth-diagnostic",
+    "title": "Shifting Gears: A Growth Diagnostic of Panama",
+    "authors": "Ricardo Hausmann, Luis M. Espinoza Bardales, and Miguel Angel Santos",
+    "citationAuthors": "Hausmann, R., Espinoza Bardales, L.M. and Santos, M.A.",
+    "year": "2016",
+    "category": "Policy Papers",
+    "status": "CID Working Paper No. 325",
+    "updated": "2017-01-01",
+    "version": "January 2017",
+    "featured": true,
+    "image": "assets/img/research/panama-growth-diagnostic.png",
+    "thumbnail": {
+      "sourcePdf": "files/panama_growth_diagnostics_wp_325.pdf",
+      "sourcePage": 17,
+      "sourceImage": 0
+    },
+    "short": "A growth diagnostic of Panama's export diversification opportunities and constraints.",
+    "abstract": "This paper explores export diversification opportunities and studies the potential binding constraints that Panama can run into in the process of shifting gears towards sustainable economic growth. We recommend that Panama increase its stock of human capital by improving the quality of education and removing restrictions to high-skilled immigration. Panama must also strengthen its institutions and reduce red tape and corruption, which most firms considered the most binding constraint to growth.",
+    "citation": "Hausmann, R., Espinoza, L. and Santos, M. A. (2016). CID Working Paper No. 325.",
+    "links": [
+      {
+        "label": "English PDF",
+        "url": "files/panama_growth_diagnostics_wp_325.pdf",
+        "primary": true
+      },
+      {
+        "label": "Harvard Growth Lab",
+        "url": "https://growthlab.hks.harvard.edu/publication/shifting-gears-a-growth-diagnostic-of-panama/"
+      }
+    ],
+    "versions": [
+      {
+        "code": "en",
+        "label": "English",
+        "title": "Shifting Gears: A Growth Diagnostic of Panama",
+        "abstract": "This paper explores export diversification opportunities and studies the potential binding constraints that Panama can run into in the process of shifting gears towards sustainable economic growth. We recommend that Panama increase its stock of human capital by improving the quality of education and removing restrictions to high-skilled immigration. Panama must also strengthen its institutions and reduce red tape and corruption, which most firms considered the most binding constraint to growth.",
+        "citation": "Hausmann, R., Espinoza, L. and Santos, M. A. (2016). CID Working Paper No. 325.",
+        "links": [
+          {
+            "label": "English PDF",
+            "url": "files/panama_growth_diagnostics_wp_325.pdf",
+            "primary": true
+          },
+          {
+            "label": "Harvard Growth Lab",
+            "url": "https://growthlab.hks.harvard.edu/publication/shifting-gears-a-growth-diagnostic-of-panama/"
+          }
+        ]
+      },
+      {
+        "code": "es",
+        "label": "Spanish",
+        "title": "Cambiando esclusas: Un diagnóstico de crecimiento de Panamá",
+        "abstract": "Este documento estudia oportunidades de diversificación exportadora y los posibles obstáculos que enfrenta Panamá para sostener un crecimiento más inclusivo. El diagnóstico destaca restricciones vinculadas al capital humano, la calidad educativa, la inmigración calificada, la corrupción y la tramitología.",
+        "citation": "Hausmann, R., Espinoza, L. and Santos, M. A. (2016). CID Working Paper No. 325.",
+        "links": [
+          {
+            "label": "PDF en español",
+            "url": "files/panama_growth_diagnostics_spanish.pdf",
+            "primary": true
+          },
+          {
+            "label": "Harvard Growth Lab",
+            "url": "https://growthlab.hks.harvard.edu/publication/shifting-gears-a-growth-diagnostic-of-panama/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "why-is-chiapas-poor",
+    "title": "Why is Chiapas Poor?",
+    "authors": "Daniel Levy, Ricardo Hausmann, Miguel Angel Santos, Luis M. Espinoza Bardales, and Miguel Flores",
+    "citationAuthors": "Levy, D., Hausmann, R., Santos, M.A., Espinoza Bardales, L.M. and Flores, M.",
+    "year": "2016",
+    "category": "Policy Papers",
+    "status": "CID Working Paper No. 300",
+    "updated": "2016-03-01",
+    "version": "2016",
+    "featured": false,
+    "image": "assets/img/research/why-chiapas-poor.png",
+    "thumbnail": {
+      "sourcePdf": "files/cid_wp_300_english.pdf",
+      "sourcePage": 2,
+      "sourceImage": 1
+    },
+    "short": "An analysis of the wage gap between Chiapas and the rest of Mexico.",
+    "abstract": "This paper determines the factors associated with the wage gap between Chiapas and the rest of Mexico. We find that Chiapas is not poor solely because it has a low endowment of factors compared to the rest of Mexico, but because the diversity of its factors of production does not allow it to produce many, more complex goods that it could sell outside the state.",
+    "citation": "Levy, D., Hausmann, R., Santos, M. A., Espinoza, L. and Flores, M. (2016). CID Working Paper No. 300.",
+    "links": [
+      {
+        "label": "English PDF",
+        "url": "files/cid_wp_300_english.pdf",
+        "primary": true
+      },
+      {
+        "label": "Harvard Growth Lab",
+        "url": "https://growthlab.hks.harvard.edu/publication/why-is-chiapas-poor/"
+      }
+    ],
+    "versions": [
+      {
+        "code": "en",
+        "label": "English",
+        "title": "Why is Chiapas Poor?",
+        "abstract": "This paper determines the factors associated with the wage gap between Chiapas and the rest of Mexico. We find that Chiapas is not poor solely because it has a low endowment of factors compared to the rest of Mexico, but because the diversity of its factors of production does not allow it to produce many, more complex goods that it could sell outside the state.",
+        "citation": "Levy, D., Hausmann, R., Santos, M. A., Espinoza, L. and Flores, M. (2016). CID Working Paper No. 300.",
+        "links": [
+          {
+            "label": "English PDF",
+            "url": "files/cid_wp_300_english.pdf",
+            "primary": true
+          },
+          {
+            "label": "Harvard Growth Lab",
+            "url": "https://growthlab.hks.harvard.edu/publication/why-is-chiapas-poor/"
+          }
+        ]
+      },
+      {
+        "code": "es",
+        "label": "Spanish",
+        "title": "¿Por qué Chiapas es pobre?",
+        "abstract": "Este documento estudia los factores asociados con la brecha de ingresos entre Chiapas y el resto de México. El argumento central es que Chiapas no es pobre únicamente por una baja dotación de factores, sino porque su estructura productiva limita la posibilidad de producir bienes más diversos y complejos para vender fuera del estado.",
+        "citation": "Levy, D., Hausmann, R., Santos, M. A., Espinoza, L. and Flores, M. (2016). CID Working Paper No. 300.",
+        "links": [
+          {
+            "label": "PDF en español",
+            "url": "files/cid_wp_300_spanish.pdf",
+            "primary": true
+          },
+          {
+            "label": "Harvard Growth Lab",
+            "url": "https://growthlab.hks.harvard.edu/publication/por-que-chiapas-es-pobre/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chiapas-growth-diagnostic",
+    "title": "The Low-Productivity Trap: Chiapas Growth Diagnostics",
+    "authors": "Ricardo Hausmann, Luis M. Espinoza Bardales, and Miguel Angel Santos",
+    "citationAuthors": "Hausmann, R., Espinoza Bardales, L.M. and Santos, M.A.",
+    "year": "2015",
+    "category": "Policy Papers",
+    "status": "CID Working Paper No. 304",
+    "updated": "2015-10-01",
+    "version": "2015",
+    "featured": false,
+    "image": "assets/img/research/chiapas-growth-diagnostic.png",
+    "thumbnail": {
+      "sourcePdf": "files/chiapas_diagnostics_cidwp304_english.pdf",
+      "sourcePage": 10,
+      "sourceImage": 0
+    },
+    "short": "A subnational growth diagnostic focused on productivity constraints in Chiapas.",
+    "abstract": "This paper follows the Growth Diagnostics methodology developed by Hausmann, Rodrik and Velasco and adapts it to the subnational context to identify the most binding constraints to economic growth in Chiapas. We conclude that Chiapas suffers from a low productivity trap. Its main problem is a low-complexity economy, reflecting its limited productive capabilities.",
+    "citation": "Hausmann, R., Espinoza, L. and Santos, M. A. (2015). CID Working Paper No. 304.",
+    "links": [
+      {
+        "label": "English PDF",
+        "url": "files/chiapas_diagnostics_cidwp304_english.pdf",
+        "primary": true
+      },
+      {
+        "label": "Harvard Growth Lab",
+        "url": "https://growthlab.hks.harvard.edu/publication/the-low-productivity-trap-chiapas-growth-diagnostics/"
+      }
+    ],
+    "versions": [
+      {
+        "code": "en",
+        "label": "English",
+        "title": "The Low-Productivity Trap: Chiapas Growth Diagnostics",
+        "abstract": "This paper follows the Growth Diagnostics methodology developed by Hausmann, Rodrik and Velasco and adapts it to the subnational context to identify the most binding constraints to economic growth in Chiapas. We conclude that Chiapas suffers from a low productivity trap. Its main problem is a low-complexity economy, reflecting its limited productive capabilities.",
+        "citation": "Hausmann, R., Espinoza, L. and Santos, M. A. (2015). CID Working Paper No. 304.",
+        "links": [
+          {
+            "label": "English PDF",
+            "url": "files/chiapas_diagnostics_cidwp304_english.pdf",
+            "primary": true
+          },
+          {
+            "label": "Harvard Growth Lab",
+            "url": "https://growthlab.hks.harvard.edu/publication/the-low-productivity-trap-chiapas-growth-diagnostics/"
+          }
+        ]
+      },
+      {
+        "code": "es",
+        "label": "Spanish",
+        "title": "Diagnóstico de Crecimiento de Chiapas: La Trampa de la Baja Productividad",
+        "abstract": "Este documento adapta la metodología de Diagnóstico de Crecimiento al contexto subnacional para identificar las restricciones más importantes al crecimiento de Chiapas. La conclusión es que Chiapas enfrenta una trampa de baja productividad asociada con una economía de baja complejidad y pocas capacidades productivas.",
+        "citation": "Hausmann, R., Espinoza, L. and Santos, M. A. (2015). CID Working Paper No. 304.",
+        "links": [
+          {
+            "label": "PDF en español",
+            "url": "files/chiapas_diagnostics_cid_wp_304.pdf",
+            "primary": true
+          },
+          {
+            "label": "Harvard Growth Lab",
+            "url": "https://growthlab.hks.harvard.edu/publication/the-low-productivity-trap-chiapas-growth-diagnostics/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "peru-regional-convergence",
+    "title": "Un análisis exploratorio de convergencia en el PIB per cápita entre departamentos en el Perú, 1979-2008",
+    "authors": "Juan M. del Pozo and Luis M. Espinoza Bardales",
+    "citationAuthors": "del Pozo, J.M. and Espinoza Bardales, L.M.",
+    "year": "2011",
+    "category": "Book Chapters",
+    "status": "Book Chapter",
+    "bookEditors": "Janina León and Javier Iguíñiz (eds.)",
+    "bookTitle": "Desigualdad Distributiva en el Perú: Dimensiones",
+    "publisher": "Lima: Pontificia Universidad Católica del Perú",
+    "publicationDetails": "In Janina León and Javier Iguíñiz (eds.), Desigualdad Distributiva en el Perú: Dimensiones. Lima: Pontificia Universidad Católica del Perú.",
+    "updated": "2011-11-01",
+    "version": "2011",
+    "featured": false,
+    "image": "assets/img/research/peru-convergence.png",
+    "thumbnail": {
+      "sourcePdf": "files/2011-un-analisis-exploratorio.pdf",
+      "sourcePage": 1,
+      "sourceImage": 1
+    },
+    "short": "Evidence on convergence in real GDP per capita across Peruvian departamentos.",
+    "abstract": "This paper studies convergence in real GDP per capita across Peruvian departamentos between 1979 and 2008. We find a negative relationship between growth in national real GDP per capita and inequality across departamentos, consistent with sigma-convergence. We also document weak beta-convergence among Peruvian departamentos.",
+    "citation": "del Pozo, J. M. and Espinoza, L. M. (2011). In Desigualdad distributiva en el Perú: dimensiones.",
+    "links": [
+      {
+        "label": "Spanish PDF",
+        "url": "files/2011-un-analisis-exploratorio.pdf",
+        "primary": true
+      },
+      {
+        "label": "Pontificia Universidad Católica del Perú",
+        "url": "https://repositorio.pucp.edu.pe/items/ba6c23be-8063-4071-aa4d-984152d769e9"
+      }
+    ],
+    "languageNote": "This publication is available only in Spanish."
+  },
+  {
+    "slug": "imported-inputs-contracting-frictions-productivity",
+    "title": "Imported inputs, contracting frictions and productivity",
+    "authors": "Luis M. Espinoza Bardales",
+    "year": "2025",
+    "category": "Work in Progress",
+    "status": "Work in progress",
+    "updated": "2025-01-01",
+    "version": "2025",
+    "featured": true,
+    "image": "",
+    "thumbnail": null,
+    "short": "A project on imported inputs, foreign contract enforcement, and domestic firm productivity.",
+    "abstract": "I explore to what extent the positive effect that imported inputs have on domestic firm productivity is accounted for by indirect access to foreign contract enforcement institutions. Based on the identifying assumption that customized inputs are affected by contracting frictions but homogeneous inputs are not, I can separately identify this channel from a broader quality effect by combining rich microdata from Mexico at the firm-input-source level with a theoretical model of contracting frictions and international trade.",
+    "citation": "Work in progress.",
+    "links": []
+  }
+]

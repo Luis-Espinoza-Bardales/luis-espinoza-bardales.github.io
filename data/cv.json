@@ -1,0 +1,226 @@
+{
+  "lastUpdated": "June 2026",
+  "profile": {
+    "name": "Luis M. Espinoza Bardales",
+    "title": "Assistant Professor",
+    "department": "Department of International Affairs",
+    "institution": "Bush School of Government and Public Service, Texas A&M University",
+    "email": "lespinoza@tamu.edu",
+    "website": "https://luis-espinoza-bardales.github.io/",
+    "googleScholar": "https://scholar.google.com/citations?user=XYTFof4AAAAJ",
+    "orcid": "https://orcid.org/0009-0009-6972-4895"
+  },
+  "appointments": [
+    {
+      "organization": "Texas A&M University",
+      "unit": "Bush School of Government and Public Service",
+      "role": "Assistant Professor",
+      "dates": "2024-present"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Michigan",
+      "degree": "Ph.D. in Economics",
+      "year": "2024"
+    },
+    {
+      "institution": "University of Michigan",
+      "degree": "M.A. in Economics",
+      "year": "2018"
+    },
+    {
+      "institution": "Harvard University, John F. Kennedy School of Government",
+      "degree": "Master in Public Administration in International Development",
+      "year": "2014"
+    },
+    {
+      "institution": "Pontificia Universidad Católica del Perú",
+      "degree": "Diploma in Applied Mathematics",
+      "year": "2011"
+    },
+    {
+      "institution": "Pontificia Universidad Católica del Perú",
+      "degree": "Bachelor of Economics",
+      "year": "2007"
+    }
+  ],
+  "fields": [
+    "International trade",
+    "Economic development",
+    "Multinational firms",
+    "Contracting frictions"
+  ],
+  "additionalResearchProjects": [
+    {
+      "title": "Trade Specialization and the Divergence in the 19th century",
+      "status": "Research in progress"
+    }
+  ],
+  "additionalPublications": [
+    {
+      "authors": "Espinoza, Luis Miguel",
+      "citationAuthors": "Espinoza Bardales, L.M.",
+      "title": "Apéndice Cuantitativo: El Perú entre 1930 y 1980",
+      "year": "2014",
+      "editors": "Carlos Contreras (ed.)",
+      "bookTitle": "Compendio de Historia Económica del Perú",
+      "volume": "Tomo 5",
+      "publisher": "Lima: Central Reserve Bank of Peru (BCRP) and Peruvian Studies Institute (IEP)",
+      "url": "https://www.bcrp.gob.pe/docs/Publicaciones/libros/historia/5-gran-depresion-y-reformismo-militar.pdf"
+    },
+    {
+      "authors": "Espinoza, Luis Miguel",
+      "citationAuthors": "Espinoza Bardales, L.M.",
+      "title": "Apéndice Cuantitativo: El Perú entre 1821-1930",
+      "year": "2011",
+      "editors": "Carlos Contreras (ed.)",
+      "bookTitle": "Compendio de Historia Económica del Perú",
+      "volume": "Tomo 4",
+      "publisher": "Lima: Central Reserve Bank of Peru (BCRP) and Peruvian Studies Institute (IEP)",
+      "url": "https://www.bcrp.gob.pe/docs/Publicaciones/libros/historia/economia/4-economia-de-la-primera-centuria-independiente.pdf"
+    },
+    {
+      "authors": "Espinoza Bardales, Luis Miguel",
+      "citationAuthors": "Espinoza Bardales, L.M.",
+      "title": "Reseña de Cárdenas, Enrique, José Antonio Ocampo and Rosemary Thorp (compiladores), Introducción. En: Industrialización y Estado en la América Latina la leyenda negra de la posguerra",
+      "year": "2004",
+      "journal": "Economía",
+      "details": "Vol. XXVII, No. 53-54.",
+      "url": "https://revistas.pucp.edu.pe/index.php/economia/article/download/875/836"
+    }
+  ],
+  "presentations": [
+    {
+      "venue": "Quant Bag seminar, Texas A&M University",
+      "dates": "2025-2026"
+    },
+    {
+      "venue": "Seminario dECON, Universidad de la República (Uruguay)",
+      "dates": "2025"
+    },
+    {
+      "venue": "International-Macro Lunch, University of Michigan",
+      "dates": "2019-2023"
+    },
+    {
+      "venue": "Summer Seminar, University of Michigan",
+      "dates": "2022-2023"
+    },
+    {
+      "venue": "Development Workshop, University of Michigan",
+      "dates": "2023"
+    }
+  ],
+  "service": [
+    {
+      "type": "Referee",
+      "venue": "Theoretical Economics"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Rackham Graduate Student Research Grant, University of Michigan",
+      "year": "2023"
+    },
+    {
+      "name": "Rackham International Research Award (RIRA), University of Michigan",
+      "year": "2022"
+    },
+    {
+      "name": "Rackham One-Term Fellowship, University of Michigan",
+      "year": "2021"
+    },
+    {
+      "name": "Graduate Research Award, Department of Economics, University of Michigan",
+      "year": "2021"
+    },
+    {
+      "name": "Rackham International Research Award (RIRA), University of Michigan",
+      "year": "2021"
+    },
+    {
+      "name": "Aristotle Grant, Pontificia Universidad Católica del Perú",
+      "year": "2011"
+    }
+  ],
+  "experience": [
+    {
+      "section": "Research Experience",
+      "items": [
+        {
+          "role": "Research Fellow",
+          "organization": "Growth Lab, Center for International Development, Harvard University",
+          "dates": "2014-2016"
+        },
+        {
+          "role": "Research Assistant to Ricardo Hausmann",
+          "organization": "Harvard University",
+          "dates": "2013"
+        },
+        {
+          "role": "Research Assistant to Dominick Bartelme",
+          "organization": "University of Michigan",
+          "dates": "2017"
+        },
+        {
+          "role": "Research and academic assistant to Santiago Roca",
+          "organization": "National School of Business and Management (ESAN)",
+          "dates": "2009-2010"
+        },
+        {
+          "role": "Research Assistant to Manuel Glave",
+          "organization": "Group for the Analysis of Development (GRADE)",
+          "dates": "2007-2008"
+        },
+        {
+          "role": "Research Assistant to Rosa Morales and José Távara",
+          "organization": "Pontificia Universidad Católica del Perú",
+          "dates": "2007"
+        },
+        {
+          "role": "Research Assistant to Enrique Vásquez",
+          "organization": "Centro de Investigación de la Universidad del Pacífico",
+          "dates": "2005"
+        }
+      ]
+    },
+    {
+      "section": "Professional Experience",
+      "items": [
+        {
+          "role": "Economic Analyst",
+          "organization": "Supervisory Agency for Private Investment in Telecommunications (OSIPTEL), Department of Competition and Regulatory Policies",
+          "dates": "2012"
+        },
+        {
+          "role": "Consultant, Compendium of Economic History of Peru",
+          "organization": "Central Reserve Bank of Peru",
+          "dates": "2010-2011"
+        }
+      ]
+    }
+  ],
+  "training": [
+    {
+      "name": "LVI Summer Advanced Course in Economics",
+      "institution": "Central Reserve Bank of Peru",
+      "year": "2009"
+    },
+    {
+      "name": "General Equilibrium Models with GAMS",
+      "institution": "International Food Policy Research Institute",
+      "year": "2008"
+    }
+  ],
+  "languages": [
+    "Spanish (native)",
+    "English (proficient)",
+    "French (basic)"
+  ],
+  "software": [
+    "Stata",
+    "MATLAB",
+    "LaTeX"
+  ]
+}
