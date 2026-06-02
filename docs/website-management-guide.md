@@ -196,7 +196,6 @@ Avoid editing these unless you are changing the design or behavior:
 
 - `assets/css/styles.css`
 - `assets/js/main.js`
-- `.github/workflow-templates/overleaf-sync.yml.example`
 
 Most routine updates should happen in:
 

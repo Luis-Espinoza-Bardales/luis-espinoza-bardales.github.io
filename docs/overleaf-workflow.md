@@ -25,7 +25,7 @@ Recommended automation design:
 4. The website immediately points to the newest PDF because the URL does not change.
 5. If the draft's figures changed, update the `thumbnail` page/image selection in `data/papers.json` and rerun `scripts/generate_research_thumbnails.py`.
 
-This repository includes `.github/workflow-templates/overleaf-sync.yml.example` as a starter. Rename it into `.github/workflows/` only after the Overleaf project, GitHub secret, and LaTeX build command are confirmed.
+Do not add an automated Overleaf workflow until the Overleaf project, GitHub secret, and LaTeX build command are confirmed. At that point, ask Codex to create the workflow in `.github/workflows/`.
 
 Official docs:
 

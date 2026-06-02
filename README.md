@@ -25,11 +25,11 @@ Each paper in `data/papers.json` has:
 
 ## Publishing
 
-Push these files to `Luis-Espinoza-Bardales/Luis-Espinoza-Bardales.github.io`. GitHub Pages can serve this directly from the repository root.
+Push these files to `Luis-Espinoza-Bardales/luis-espinoza-bardales.github.io`. GitHub Pages can serve this directly from the repository root.
 
 ## Overleaf automation
 
-See `docs/overleaf-workflow.md`. There is also a non-running starter workflow at `.github/workflow-templates/overleaf-sync.yml.example`.
+See `docs/overleaf-workflow.md`.
 
 ## CV automation
 
