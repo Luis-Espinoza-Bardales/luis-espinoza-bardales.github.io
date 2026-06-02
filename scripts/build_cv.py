@@ -57,10 +57,28 @@ OWN_NAME_VARIANTS = [
 
 
 def register_cv_fonts() -> str:
-    """Use a Palatino-style family when available, matching Ben Helms's CV more closely."""
+    """Use an embedded serif family when available, preferring Palatino locally."""
     global FONT_REGULAR, FONT_BOLD, FONT_ITALIC, BOLD_ITALIC
 
     candidates = [
+        (
+            "PalatinoCV",
+            {
+                "regular": Path("C:/Windows/Fonts/pala.ttf"),
+                "bold": Path("C:/Windows/Fonts/palab.ttf"),
+                "italic": Path("C:/Windows/Fonts/palai.ttf"),
+                "boldItalic": Path("C:/Windows/Fonts/palabi.ttf"),
+            },
+        ),
+        (
+            "DejaVuSerifCV",
+            {
+                "regular": Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"),
+                "bold": Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"),
+                "italic": Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf"),
+                "boldItalic": Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf"),
+            },
+        ),
         (
             "TeXGyrePagellaCV",
             {
@@ -77,15 +95,6 @@ def register_cv_fonts() -> str:
                 "bold": Path("/usr/share/fonts/opentype/tex-gyre/texgyrepagella-bold.otf"),
                 "italic": Path("/usr/share/fonts/opentype/tex-gyre/texgyrepagella-italic.otf"),
                 "boldItalic": Path("/usr/share/fonts/opentype/tex-gyre/texgyrepagella-bolditalic.otf"),
-            },
-        ),
-        (
-            "PalatinoCV",
-            {
-                "regular": Path("C:/Windows/Fonts/pala.ttf"),
-                "bold": Path("C:/Windows/Fonts/palab.ttf"),
-                "italic": Path("C:/Windows/Fonts/palai.ttf"),
-                "boldItalic": Path("C:/Windows/Fonts/palabi.ttf"),
             },
         ),
     ]
@@ -611,7 +620,8 @@ def build() -> None:
     teaching = load_json(TEACHING_DATA)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    register_cv_fonts()
+    selected_font = register_cv_fonts()
+    print(f"Using CV font: {selected_font}")
     styles = make_styles()
     story: list = []
 
