@@ -62,6 +62,15 @@ def register_cv_fonts() -> str:
         (
             "TeXGyrePagellaCV",
             {
+                "regular": Path("/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-regular.otf"),
+                "bold": Path("/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bold.otf"),
+                "italic": Path("/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-italic.otf"),
+                "boldItalic": Path("/usr/share/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bolditalic.otf"),
+            },
+        ),
+        (
+            "TeXGyrePagellaCV",
+            {
                 "regular": Path("/usr/share/fonts/opentype/tex-gyre/texgyrepagella-regular.otf"),
                 "bold": Path("/usr/share/fonts/opentype/tex-gyre/texgyrepagella-bold.otf"),
                 "italic": Path("/usr/share/fonts/opentype/tex-gyre/texgyrepagella-italic.otf"),
@@ -80,10 +89,13 @@ def register_cv_fonts() -> str:
     ]
     for family, paths in candidates:
         if all(path.exists() for path in paths.values()):
-            pdfmetrics.registerFont(TTFont(family, str(paths["regular"])))
-            pdfmetrics.registerFont(TTFont(f"{family}-Bold", str(paths["bold"])))
-            pdfmetrics.registerFont(TTFont(f"{family}-Italic", str(paths["italic"])))
-            pdfmetrics.registerFont(TTFont(f"{family}-BoldItalic", str(paths["boldItalic"])))
+            try:
+                pdfmetrics.registerFont(TTFont(family, str(paths["regular"])))
+                pdfmetrics.registerFont(TTFont(f"{family}-Bold", str(paths["bold"])))
+                pdfmetrics.registerFont(TTFont(f"{family}-Italic", str(paths["italic"])))
+                pdfmetrics.registerFont(TTFont(f"{family}-BoldItalic", str(paths["boldItalic"])))
+            except Exception:
+                continue
             pdfmetrics.registerFontFamily(
                 family,
                 normal=family,
