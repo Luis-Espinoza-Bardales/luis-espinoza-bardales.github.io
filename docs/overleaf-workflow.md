@@ -21,11 +21,12 @@ Recommended automation design:
 
 1. Keep each paper in Overleaf.
 2. Use Overleaf Git or GitHub synchronization to make the TeX source available to GitHub Actions.
-3. Have a GitHub Action compile the paper, copy the PDF into this website's `files/` folder, update the paper's `updated` date, and commit the result.
-4. The website immediately points to the newest PDF because the URL does not change.
-5. If the draft's figures changed, update the `thumbnail` page/image selection in `data/papers.json` and rerun `scripts/generate_research_thumbnails.py`.
+3. Have a GitHub Action compile the paper after each sync and save the PDF as a private artifact.
+4. When the draft is ready to be public, run a separate manual GitHub Action that copies the PDF into this website's `files/` folder, updates the paper's `updated` date, and commits the result.
+5. The website immediately points to the newest PDF because the URL does not change.
+6. If the draft's figures changed, update the `thumbnail` page/image selection in `data/papers.json` and rerun `scripts/generate_research_thumbnails.py`.
 
-Do not add an automated Overleaf workflow until the Overleaf project, GitHub secret, and LaTeX build command are confirmed. At that point, ask Codex to create the workflow in `.github/workflows/`.
+The paper repository needs a GitHub Actions secret named `WEBSITE_REPO_TOKEN` before it can publish into this website repository.
 
 Official docs:
 

@@ -11,7 +11,7 @@
     "featured": true,
     "image": "assets/img/research/contract-enforcement-international-trade.png",
     "thumbnail": {
-      "sourcePdf": "files/Contract_enforcement_and_international_trade-2026-05-31.pdf",
+      "sourcePdf": "files/Contract_enforcement_and_international_trade.pdf",
       "sourcePage": 8,
       "sourceImage": 1
     },
@@ -21,7 +21,7 @@
     "links": [
       {
         "label": "Most recent version",
-        "url": "files/Contract_enforcement_and_international_trade-2026-05-31.pdf",
+        "url": "files/Contract_enforcement_and_international_trade.pdf",
         "primary": true
       }
     ]
