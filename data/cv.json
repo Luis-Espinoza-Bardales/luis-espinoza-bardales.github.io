@@ -114,11 +114,23 @@
   ],
   "service": [
     {
+      "name": "Assessment Committee, Department of International Affairs, Texas A&M",
+      "year": "2025-"
+    },
+    {
+      "name": "Foreign Economic Policy Concentration Faculty Coordinator, Dept. of International Affairs, Texas A&M",
+      "year": "2024-"
+    },
+    {
       "type": "Referee",
       "venue": "Theoretical Economics"
     }
   ],
   "awards": [
+    {
+      "name": "Globalization Co-leader, Lab for Economic Development Research (LEDR), Texas A&M",
+      "year": "2024-"
+    },
     {
       "name": "Rackham Graduate Student Research Grant, University of Michigan",
       "year": "2023"

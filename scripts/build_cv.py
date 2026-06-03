@@ -564,7 +564,12 @@ def add_service(story: list, cv: dict, styles: dict[str, ParagraphStyle]) -> Non
         return
     section(story, "Professional Service", styles)
     for item in items:
-        story.append(paragraph(f"{esc(item['type'])}: <i>{esc(item['venue'])}</i>", styles["body"]))
+        year = item.get("year") or item.get("dates")
+        if year:
+            label = item.get("name") or f"{item.get('type', '')}, {item.get('venue', '')}"
+            story.append(dated_row(esc(label), esc(year), styles))
+        else:
+            story.append(paragraph(f"{esc(item['type'])}: <i>{esc(item['venue'])}</i>", styles["body"]))
 
 
 def add_experience(story: list, cv: dict, styles: dict[str, ParagraphStyle]) -> None:
