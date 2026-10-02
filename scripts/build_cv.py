@@ -537,7 +537,7 @@ def add_conferences(story: list, cv: dict, styles: dict[str, ParagraphStyle]) ->
         return
     section(story, "Conferences", styles)
     for item in items:
-        story.append(dated_row(f"<b>{esc(item['name'])}</b>", esc(item["year"]), styles))
+        story.append(dated_row(esc(item["name"]), esc(item["year"]), styles))
 
 
 def add_teaching(story: list, teaching: list[dict], styles: dict[str, ParagraphStyle]) -> None:
