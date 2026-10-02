@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "June 2026",
+  "lastUpdated": "October 2026",
   "profile": {
     "name": "Luis M. Espinoza Bardales",
     "title": "Assistant Professor",
@@ -110,6 +110,12 @@
     {
       "venue": "Development Workshop, University of Michigan",
       "dates": "2023"
+    }
+  ],
+  "conferences": [
+    {
+      "name": "Boston Fed’s 69th Economic Conference",
+      "year": "2025"
     }
   ],
   "service": [

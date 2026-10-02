@@ -531,6 +531,15 @@ def add_presentations(story: list, cv: dict, styles: dict[str, ParagraphStyle]) 
         story.append(dated_row(esc(item["venue"]), esc(item["dates"]), styles))
 
 
+def add_conferences(story: list, cv: dict, styles: dict[str, ParagraphStyle]) -> None:
+    items = cv.get("conferences", [])
+    if not items:
+        return
+    section(story, "Conferences", styles)
+    for item in items:
+        story.append(dated_row(f"<b>{esc(item['name'])}</b>", esc(item["year"]), styles))
+
+
 def add_teaching(story: list, teaching: list[dict], styles: dict[str, ParagraphStyle]) -> None:
     if not teaching:
         return
@@ -603,8 +612,10 @@ def add_skills(story: list, cv: dict, styles: dict[str, ParagraphStyle]) -> None
         parts.append(f"<b>Software:</b> {', '.join(esc(item) for item in cv['software'])}")
     if not parts:
         return
-    section(story, "Languages and Software", styles)
-    story.append(paragraph("<br/>".join(parts), styles["body"]))
+    items: list = []
+    section(items, "Languages and Software", styles)
+    items.append(paragraph("<br/>".join(parts), styles["body"]))
+    story.append(KeepTogether(items))
 
 
 def on_page(canvas, doc) -> None:
@@ -638,6 +649,7 @@ def build() -> None:
     add_publications(story, cv, papers, styles)
     add_awards(story, cv, styles)
     add_presentations(story, cv, styles)
+    add_conferences(story, cv, styles)
     add_teaching(story, teaching, styles)
     add_service(story, cv, styles)
     add_skills(story, cv, styles)
