@@ -114,6 +114,14 @@
   ],
   "conferences": [
     {
+      "name": "Empirical Investigations in International Trade conference (EIIT)",
+      "year": "2026"
+    },
+    {
+      "name": "Latin American and Caribbean Economic Association (LACEA)",
+      "year": "2026"
+    },
+    {
       "name": "Boston Fed’s 69th Economic Conference",
       "year": "2025"
     }
@@ -126,6 +134,9 @@
     {
       "name": "Foreign Economic Policy Concentration Faculty Coordinator, Dept. of International Affairs, Texas A&M",
       "year": "2024-"
+    },
+    {
+      "name": "Organizer, Quant Bag Seminar, Texas A&M University"
     },
     {
       "type": "Referee",

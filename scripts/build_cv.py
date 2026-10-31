@@ -577,6 +577,8 @@ def add_service(story: list, cv: dict, styles: dict[str, ParagraphStyle]) -> Non
         if year:
             label = item.get("name") or f"{item.get('type', '')}, {item.get('venue', '')}"
             story.append(dated_row(esc(label), esc(year), styles))
+        elif item.get("name"):
+            story.append(paragraph(esc(item["name"]), styles["body"]))
         else:
             story.append(paragraph(f"{esc(item['type'])}: <i>{esc(item['venue'])}</i>", styles["body"]))
 
