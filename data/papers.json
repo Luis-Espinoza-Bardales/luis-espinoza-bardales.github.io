@@ -57,7 +57,7 @@
     "slug": "contracting-frictions-geography-multinational-firms-mexico",
     "title": "Contracting frictions, geography, and multinational firms: evidence from Mexico",
     "authors": "Luis M. Espinoza Bardales",
-    "year": "2023",
+    "year": "2026",
     "category": "Working Papers",
     "status": "Working Paper",
     "updated": "2026-11-06",
@@ -65,17 +65,17 @@
     "featured": true,
     "image": "assets/img/research/multinational-firms-mexico.png",
     "thumbnail": {
-      "sourcePdf": "files/Espinoza_JMP  .pdf",
-      "sourcePage": 14,
+      "sourcePdf": "files/Espinoza_JMP.pdf",
+      "sourcePage": 13,
       "sourceImage": 0
     },
-    "short": "A study of contracting frictions, geography, sourcing, and multinationals in Mexico.",
-    "abstract": "I explore how contracting frictions and geography influence the trade costs faced by multinationals in their affiliates located in Mexico relative to domestic firms. I document two key facts. First, distance to firm's home countries influences firms' sourcing patterns. Second, sectors with a larger presence of foreign affiliates are more intensive in relationship-specific inputs. I develop a small open economy model with multiple sectors, imperfect contracting, input relationship-specificity, global sourcing and multinational production. I compute counterfactual equilibria to gauge the relative importance of contracting frictions, trade costs, and productivity in the price advantage of multinationals over domestic firms.",
-    "citation": "Espinoza, L. (2023). Working Paper.",
+    "short": "How contracting frictions and geography shape trade costs and sourcing for multinational affiliates in Mexico.",
+    "abstract": "I explore how contracting frictions and geography influence the trade costs faced by multinationals' affiliates in Mexico relative to those faced by domestic firms. I document two key facts. First, distance to firms' home countries influences their sourcing patterns. Second, sectors with a larger presence of foreign affiliates are more intensive in relationship-specific inputs. I develop a small open economy model with multiple sectors, imperfect contracting, input relationship specificity, global sourcing, and multinational production. I compute a set of counterfactual equilibria to gauge the relative importance of contracting frictions, trade costs, and productivity in the price advantage of multinationals over domestic firms. Contrary to priors, foreign firms seem disadvantaged relative to domestic firms in trade costs and contracting frictions. Eliminating all differences between foreign and domestic firms would reduce real GNP by 2.7 percent; eliminating only productivity differences would reduce it by 2.2 percent.",
+    "citation": "Espinoza, L. (2026). Working Paper.",
     "links": [
       {
         "label": "Most recent version",
-        "url": "files/Espinoza_JMP_November_vf.pdf",
+        "url": "files/Espinoza_JMP.pdf",
         "primary": true
       }
     ]
